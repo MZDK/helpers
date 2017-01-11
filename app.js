@@ -4,7 +4,7 @@ import Foo from './components/foo/foo';
 
 // Provide components
 const Components = [
-	{Class: Foo, 		selectorName: 'foo'}
+	{Class: Foo, selectorName: 'foo'}
 ];
 
 
@@ -12,6 +12,7 @@ const Components = [
 export default class App {
 
 	constructor() {
+		this.createComponents();
 		return this;
 	}
 
