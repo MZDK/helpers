@@ -7,7 +7,7 @@ export default class Foo {
 
 	init(elem) {
 		const self = this;
-    console.log('Foo', elem);
+		console.log('Foo', elem);
 	}
 
 }
