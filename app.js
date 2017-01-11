@@ -12,7 +12,7 @@ const Components = [
 export default class App {
 
 	constructor() {
-		this.createComponents();
+	   this.createComponents();
 		return this;
 	}
 
