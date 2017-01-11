@@ -16,7 +16,7 @@ export default class App {
     return this;
   }
 
-	createComponents() {
+  createComponents() {
     this.components = {};
     for (let i = 0; i < Components.length; i++) {
       let nodes = [];
